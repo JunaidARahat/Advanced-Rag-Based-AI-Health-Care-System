@@ -1,7 +1,8 @@
+
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
-from config import Config
+from src.config import Config
 
 class LLMService:
     def __init__(self, vector_store):
